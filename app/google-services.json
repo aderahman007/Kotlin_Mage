@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760491716269",
+    "firebase_url": "https://app-25de5.firebaseio.com",
+    "project_id": "app-25de5",
+    "storage_bucket": "app-25de5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760491716269:android:80744f72a2952877e6a024",
+        "android_client_info": {
+          "package_name": "com.zerojump.a18app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760491716269-o695mfo6u8drk6gqj6gp76rt601b51f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerojump.a18app",
+            "certificate_hash": "375acd93d75694f251188c2237c87fc90beb945f"
+          }
+        },
+        {
+          "client_id": "760491716269-qn8cst3r5g7hrqn8r44fcn6cd5i0qrgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MPhiOzBA_mnOJtj9PyNWlF4j3wwJsKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760491716269-qn8cst3r5g7hrqn8r44fcn6cd5i0qrgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
