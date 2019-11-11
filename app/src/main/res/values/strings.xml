@@ -2,5 +2,19 @@
     <string name="app_name">18app</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Pemberitahuan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editPofile">Edit Akun</string>
+    <string name="LogOut">Keluar</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="info_saloo">Info Saldo</string>
+    <string name="hub_kami">Hubungi Kami</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_consultasi">Konsultasi</string>
+    <string name="title_transaksi">Transaksi</string>
+    <string name="tittle_profile">Akun</string>
+    <string name="defaultToken">760491716269-qn8cst3r5g7hrqn8r44fcn6cd5i0qrgq.apps.googleusercontent.com</string>
+    <string name="title_berand_investor">Beranda Investor</string>
 </resources>

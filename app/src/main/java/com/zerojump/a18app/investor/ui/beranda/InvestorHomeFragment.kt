@@ -1,4 +1,4 @@
-package com.zerojump.a18app.investor.ui.home
+package com.zerojump.a18app.investor.ui.beranda
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.zerojump.a18app.R
-import com.zerojump.a18app.user.ui.home.HomeViewModel
+import com.zerojump.a18app.user.ui.beranda.HomeViewModel
 
 class InvestorHomeFragment : Fragment() {
 

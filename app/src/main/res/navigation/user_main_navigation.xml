@@ -7,19 +7,29 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.zerojump.a18app.user.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:name="com.zerojump.a18app.user.ui.beranda.HomeFragment"
+        android:label="@string/title_beranda"
         tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.zerojump.a18app.user.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.zerojump.a18app.user.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications_pemilik" />
+    <fragment
+        android:id="@+id/navigation_transaksi"
+        android:name="com.zerojump.a18app.user.ui.transaksi.DashboardFragment"
+        android:label="@string/title_transaksi"
+        tools:layout="@layout/fragment_transaksi" />
+
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.zerojump.a18app.user.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/navigation_konsultasi"
+        android:name="com.zerojump.a18app.user.ui.konsulatasi.KonsultasiFragment"
+        tools:layout="@layout/fragment_konsultasi"
+        android:label="Konsultasi" />
 </navigation>

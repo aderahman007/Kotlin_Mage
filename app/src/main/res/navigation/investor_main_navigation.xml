@@ -7,19 +7,29 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.zerojump.a18app.investor.ui.home.InvestorHomeFragment"
-        android:label="@string/title_home"
+        android:name="com.zerojump.a18app.investor.ui.beranda.InvestorHomeFragment"
+        android:label="@string/title_berand_investor"
         tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.zerojump.a18app.investor.ui.dashboard.InvestorDashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.zerojump.a18app.investor.ui.notifications.InvestorNotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications_pemilik" />
+    <fragment
+        android:id="@+id/navigation_transaksi"
+        android:name="com.zerojump.a18app.investor.ui.transaksi.InvestorDashboardFragment"
+        android:label="@string/title_transaksi"
+        tools:layout="@layout/fragment_transaksi" />
+
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.zerojump.a18app.investor.ui.profile.ProfileInvestorFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/navigation_konsultasi"
+        android:name="com.zerojump.a18app.investor.ui.konsultasi.KonsultasiInvestorFragment"
+        tools:layout="@layout/fragment_konsultasi"
+        android:label="Konsultasi" />
 </navigation>

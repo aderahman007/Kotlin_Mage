@@ -6,11 +6,11 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class User(
     @Transient
-    val mNama : String?=null,
-    val mEmail : String?=null,
-    val mAlamat : String?=null,
-    val mPitcure : String?=null,
-    val mNohandphone : String? = null,
-    val mSebagai : Int? = null
+    val m_nama : String?=null,
+    val m_email : String?=null,
+    val m_alamat : String?=null,
+    val m_pitcure : String?=null,
+    val m_nohandphone : String? = null,
+    val m_sebagai : Int? = null
 
 ) : Parcelable
