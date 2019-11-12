@@ -6,4 +6,9 @@
     <color name="colorInfo">#303030</color>
     <color name="blackColor">#000000</color>
     <color name="cyan">#ffffff</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="bottomNav">#E6E6E6</color>
+    <color name="silver">#808080</color>
+    <color name="cyan2">#00FFFF</color>
+    <color name="blue">#313E52</color>
 </resources>

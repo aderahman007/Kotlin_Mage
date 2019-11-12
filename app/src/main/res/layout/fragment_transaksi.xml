@@ -1,19 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
-    <TextView
-        android:id="@+id/text_dashboard"
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/transaksi" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="30dp">
+
+            <ImageView
+                android:id="@+id/transaksi_gambar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/trans_gambar" />
+
+            <TextView
+                android:id="@+id/nama_peternak"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="160dp"
+                android:gravity="center"
+                android:text="Ternak Bapak Yogi"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="350dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Pilih Metode Transaksi:"
+
+                android:textColor="@color/blue"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/kredit" />
+
+                <TextView
+                    android:id="@+id/kredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="60dp"
+                    android:text="Kartu Kredit/Debit Online"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_action_circle_black" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/transfer" />
+
+                <TextView
+                    android:id="@+id/transfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="60dp"
+                    android:text="Kartu Kredit/Debit Online"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_action_circle_white" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="30dp">
+
+            <Button
+                android:id="@+id/konfirmasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shapping_konfirm"
+                android:text="Konfirmasi"
+                android:textColor="@color/whiteColor"
+                android:textSize="20dp"
+
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

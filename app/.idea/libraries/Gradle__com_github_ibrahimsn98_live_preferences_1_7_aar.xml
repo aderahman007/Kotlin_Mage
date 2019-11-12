@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ibrahimsn98:live-preferences:1.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de0f3bde772ecbcaa9a34ca4807c26fe/jetified-live-preferences-1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de0f3bde772ecbcaa9a34ca4807c26fe/jetified-live-preferences-1.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ibrahimsn98/live-preferences/1.7/7ed35504186c02894c11b61b435d4aa70b09c7d5/live-preferences-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

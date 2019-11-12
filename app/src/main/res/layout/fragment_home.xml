@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     >
 
     <androidx.core.widget.NestedScrollView
@@ -174,7 +175,7 @@
                     android:paddingRight="10dp"
                     android:textSize="16dp"
                     android:text="Registrasi"
-                    android:textColor="@color/cyan"
+                    android:textColor="@color/cyan2"
                     />
                 <TextView
                     android:layout_width="140dp"
@@ -183,7 +184,7 @@
                     android:paddingLeft="6dp"
                     android:textSize="16dp"
                     android:text="Lengkapi Profil"
-                    android:textColor="@color/cyan"
+                    android:textColor="@color/cyan2"
                     />
                 <TextView
                     android:layout_width="120dp"
@@ -191,7 +192,7 @@
                     android:textAlignment="center"
                     android:textSize="16dp"
                     android:text="Modali Proyek"
-                    android:textColor="@color/cyan"
+                    android:textColor="@color/cyan2"
                     />
             </LinearLayout>
 
@@ -200,17 +201,15 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_marginTop="450dp">
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="300dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_account_balance"
+                    android:src="@drawable/dompet"
                     android:layout_centerInParent="true"
                     />
-
-
-
             </RelativeLayout>
 
             <RelativeLayout
@@ -227,7 +226,7 @@
                     android:layout_height="900dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_access_time" />
+                    android:src="@drawable/modali" />
 
             </RelativeLayout>
 
@@ -242,7 +241,6 @@
                 android:layout_marginTop="550dp"
                 android:layout_marginBottom="80dp"
                 android:orientation="vertical">
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
@@ -250,7 +248,8 @@
                     android:layout_marginRight="20dp"
                     android:elevation="30dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="50dp">
+                    app:cardElevation="50dp"
+                    android:layout_marginTop="50dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -262,11 +261,12 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/ic_dashboard_black_24dp"
+                            android:src="@drawable/trans_gambar"
                             />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
             </RelativeLayout>
 
         </RelativeLayout>

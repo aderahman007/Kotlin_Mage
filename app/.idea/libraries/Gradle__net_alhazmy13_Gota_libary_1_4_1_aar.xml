@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: net.alhazmy13.Gota:libary:1.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97fb42eb03aabb91d67b2dc2c11143df/jetified-libary-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97fb42eb03aabb91d67b2dc2c11143df/jetified-libary-1.4.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.alhazmy13.Gota/libary/1.4.1/b9fb89615671b22232611ecd09d2c8084dca23ad/libary-1.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.alhazmy13.Gota/libary/1.4.1/26133d42d7dde0517a03422505af158cc96b6831/libary-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
