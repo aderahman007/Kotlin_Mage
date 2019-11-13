@@ -46,7 +46,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:menu="@menu/bottom_nav_menu" />
+            app:menu="@menu/bottom_nav_menu"
+            app:elevation="8dp"
+            app:itemBackground="@color/bottomNav"
+            android:layout_gravity="bottom"
+            app:labelVisibilityMode="labeled"
+            />
 
         <fragment
             android:id="@+id/nav_host_fragment"

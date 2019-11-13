@@ -19,7 +19,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="Transaksi Berhasil"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:id="@+id/textViewNotif"
                 android:layout_width="match_parent"
